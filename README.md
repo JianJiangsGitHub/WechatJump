@@ -1,17 +1,21 @@
 工具介绍
+
   ● Python
   ● 手机或模拟器
   ● ADB驱动，可以到
 
 【https://adb.clockworkmod.com/】下载
+
   ● 相关依赖
 
 如果你是iOS + MacOS，请参考下面的配置：
+
   ● 使用真机调试WDA，参考iOS真机如何安装WebDriverAgent · TesterHome
   ● 安装openatx/facebook-wda
   ● Python 3
 
 如果你是 Android + MacOS，请参考下面的配置：
+
        
   ● Python 3
   ● 使用brew进行安装 brew cask install android-platform-tools
@@ -48,10 +52,12 @@ iOS 手机操作步骤
   ● 命令行运行
 
 python3 wechat_jump_auto_iOS.py
+
   ● 会自动计算坐标并连续起跳，根据起跳的精准情况更改./config.json中的press_coefficient参数，直到获得最佳取值
   ● 命令行运行
 
 python3 wechat_jump_iOS_py3.py
+
   ● 依次点击弹出的窗口中的起始位置和目标位置，会自动计算距离后起跳
   ● 根据起跳的精准情况更改python3 wechat_jump_iOS_py3.py中的time_coefficient参数，直到获得最佳取值
   ● 手动辅助跳
